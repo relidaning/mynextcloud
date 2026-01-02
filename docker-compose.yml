@@ -1,0 +1,7 @@
+services:
+  nextcloud:
+    image: nextcloud
+    ports:
+      - 0.0.0.0:8080:80
+    restart: unless-stopped
+      
