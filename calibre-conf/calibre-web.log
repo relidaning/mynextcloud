@@ -1,0 +1,549 @@
+[2026-04-08 09:50:49,513]  WARN {config_sql.py:365} Log path /config/calibre-web.log not valid, falling back to default
+[2026-04-08 09:50:49,553]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-08 09:50:50,831]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-08 09:50:50,855]  INFO {__init__.py:184} Starting Calibre Web...
+[2026-04-08 09:50:51,421]  WARN {config_sql.py:401} invalidating configuration
+[2026-04-08 09:50:51,422]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-08 09:50:51,433]  WARN {warnings.py:110} /lsiopy/lib/python3.12/site-packages/flask_limiter/extension.py:324: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2026-04-08 09:50:51,669]  INFO {base.py:214} Scheduler started
+[2026-04-08 09:50:51,670]  INFO {base.py:1090} Added job "delete temp" to job store "default"
+[2026-04-08 09:50:51,671]  INFO {base.py:1090} Added job "end scheduled task" to job store "default"
+[2026-04-08 09:50:51,672]  INFO {base.py:1090} Added job "immediately delete temp" to job store "default"
+[2026-04-08 09:50:51,673]  INFO {base.py:129} Running job "immediately delete temp (trigger: date[2026-04-08 09:50:51 CST], next run at: 2026-04-08 09:50:51 CST)" (scheduled at 2026-04-08 09:50:51.672461+08:00)
+[2026-04-08 09:50:51,674]  INFO {base.py:728} Removed job cee114bfc3f844aba69b8e2367a01673
+[2026-04-08 09:50:51,694]  INFO {base.py:156} Job "immediately delete temp (trigger: date[2026-04-08 09:50:51 CST], next run at: 2026-04-08 09:50:51 CST)" executed successfully
+[2026-04-08 09:50:51,819]  INFO {ub.py:764} github Blueprint Created
+[2026-04-08 09:50:51,838]  INFO {ub.py:764} google Blueprint Created
+[2026-04-08 09:50:52,960]  INFO {server.py:218} Starting Gevent server on [::]:8083
+[2026-04-08 10:10:16,536]  INFO {server.py:331} webserver stop (restart=False)
+[2026-04-08 10:10:16,538]  INFO {base.py:245} Scheduler has been shut down
+[2026-04-08 10:10:16,540]  INFO {server.py:310} Performing shutdown of Calibre-Web
+[2026-04-08 10:10:22,795]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-08 10:10:22,839]  INFO {__init__.py:184} Starting Calibre Web...
+[2026-04-08 10:10:23,606]  WARN {config_sql.py:401} invalidating configuration
+[2026-04-08 10:10:23,607]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-08 10:10:23,617]  WARN {warnings.py:110} /lsiopy/lib/python3.12/site-packages/flask_limiter/extension.py:324: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2026-04-08 10:10:23,863]  INFO {base.py:214} Scheduler started
+[2026-04-08 10:10:23,864]  INFO {base.py:1090} Added job "delete temp" to job store "default"
+[2026-04-08 10:10:23,865]  INFO {base.py:1090} Added job "end scheduled task" to job store "default"
+[2026-04-08 10:10:23,866]  INFO {base.py:1090} Added job "immediately delete temp" to job store "default"
+[2026-04-08 10:10:23,867]  INFO {base.py:129} Running job "immediately delete temp (trigger: date[2026-04-08 10:10:23 CST], next run at: 2026-04-08 10:10:23 CST)" (scheduled at 2026-04-08 10:10:23.866325+08:00)
+[2026-04-08 10:10:23,867]  INFO {base.py:728} Removed job 870b921efbfc407d87796e4c71b089f5
+[2026-04-08 10:10:23,887]  INFO {base.py:156} Job "immediately delete temp (trigger: date[2026-04-08 10:10:23 CST], next run at: 2026-04-08 10:10:23 CST)" executed successfully
+[2026-04-08 10:10:25,392]  INFO {server.py:218} Starting Gevent server on [::]:8083
+[2026-04-08 10:10:55,445]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-08 10:10:55,451]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-08 10:10:58,230]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-08 10:10:58,233]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-08 10:10:58,235]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-08 10:13:17,510]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-08 10:13:17,513]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-08 10:13:17,515]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-08 10:13:27,606]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-08 10:13:27,609]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-08 10:13:27,611]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-08 10:13:29,698]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-08 10:13:29,701]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-08 10:13:29,702]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-08 10:13:31,173]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-08 10:13:31,176]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-08 10:13:31,178]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-08 10:14:17,689]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-08 10:14:17,692]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-08 10:14:17,693]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-08 10:14:19,832]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-08 10:14:19,840]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-08 10:20:10,574]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-08 10:20:10,577]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-08 10:20:10,578]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-08 10:22:05,227]  INFO {web.py:1206} Serving book: 'Ji Suan Ji Wang Luo Yu Xin Xi A - Wei Zhi' to admin - ::ffff:172.20.0.1
+[2026-04-08 10:22:52,545]  INFO {web.py:1206} Serving book: 'Ji Suan Ji Wang Luo Yu Xin Xi A - Wei Zhi' to admin - ::ffff:172.20.0.1
+[2026-04-08 10:32:47,849]  INFO {web.py:1206} Serving book: 'Ji Suan Ji Wang Luo Yu Xin Xi A - Wei Zhi' to admin - ::ffff:172.20.0.1
+[2026-04-08 10:37:04,948]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-08 10:37:04,951]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-08 10:37:04,953]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-08 10:37:30,302]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-08 10:37:30,305]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-08 10:37:30,306]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-08 10:42:42,113]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-08 10:42:42,117]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-08 10:42:42,118]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-08 10:42:44,979]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-08 10:42:44,982]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-08 10:42:44,983]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-08 10:43:21,335]  INFO {web.py:1206} Serving book: 'Ji Suan Ji Wang Luo Yu Xin Xi A - Wei Zhi' to admin - ::ffff:172.20.0.1
+[2026-04-08 10:56:55,894]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-08 10:56:55,958]  INFO {__init__.py:184} Starting Calibre Web...
+[2026-04-08 10:56:57,163]  WARN {warnings.py:110} /lsiopy/lib/python3.12/site-packages/flask_limiter/extension.py:324: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2026-04-08 10:56:57,431]  INFO {base.py:214} Scheduler started
+[2026-04-08 10:56:57,432]  INFO {base.py:1090} Added job "delete temp" to job store "default"
+[2026-04-08 10:56:57,433]  INFO {base.py:1090} Added job "end scheduled task" to job store "default"
+[2026-04-08 10:56:57,434]  INFO {base.py:1090} Added job "immediately delete temp" to job store "default"
+[2026-04-08 10:56:57,435]  INFO {base.py:129} Running job "immediately delete temp (trigger: date[2026-04-08 10:56:57 CST], next run at: 2026-04-08 10:56:57 CST)" (scheduled at 2026-04-08 10:56:57.434302+08:00)
+[2026-04-08 10:56:57,435]  INFO {base.py:728} Removed job 1fca4f66086342be90b3b7c35c0fadbb
+[2026-04-08 10:56:57,456]  INFO {base.py:156} Job "immediately delete temp (trigger: date[2026-04-08 10:56:57 CST], next run at: 2026-04-08 10:56:57 CST)" executed successfully
+[2026-04-08 10:56:58,979]  INFO {server.py:218} Starting Gevent server on [::]:8083
+[2026-04-08 22:08:02,202]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-08 22:08:02,310]  INFO {__init__.py:184} Starting Calibre Web...
+[2026-04-08 22:08:03,879]  WARN {warnings.py:110} /lsiopy/lib/python3.12/site-packages/flask_limiter/extension.py:324: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2026-04-08 22:08:04,163]  INFO {base.py:214} Scheduler started
+[2026-04-08 22:08:04,164]  INFO {base.py:1090} Added job "delete temp" to job store "default"
+[2026-04-08 22:08:04,166]  INFO {base.py:1090} Added job "end scheduled task" to job store "default"
+[2026-04-08 22:08:04,167]  INFO {base.py:1090} Added job "immediately delete temp" to job store "default"
+[2026-04-08 22:08:04,168]  INFO {base.py:129} Running job "immediately delete temp (trigger: date[2026-04-08 22:08:04 CST], next run at: 2026-04-08 22:08:04 CST)" (scheduled at 2026-04-08 22:08:04.167203+08:00)
+[2026-04-08 22:08:04,168]  INFO {base.py:728} Removed job 51d7f3b845f84242b1a872bb3adf69bb
+[2026-04-08 22:08:04,192]  INFO {base.py:156} Job "immediately delete temp (trigger: date[2026-04-08 22:08:04 CST], next run at: 2026-04-08 22:08:04 CST)" executed successfully
+[2026-04-08 22:08:06,063]  INFO {server.py:218} Starting Gevent server on [::]:8083
+[2026-04-09 10:38:39,670]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-09 10:38:39,730]  INFO {__init__.py:184} Starting Calibre Web...
+[2026-04-09 10:38:40,934]  WARN {warnings.py:110} /lsiopy/lib/python3.12/site-packages/flask_limiter/extension.py:324: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2026-04-09 10:38:41,225]  INFO {base.py:214} Scheduler started
+[2026-04-09 10:38:41,227]  INFO {base.py:1090} Added job "delete temp" to job store "default"
+[2026-04-09 10:38:41,228]  INFO {base.py:1090} Added job "end scheduled task" to job store "default"
+[2026-04-09 10:38:41,229]  INFO {base.py:1090} Added job "immediately delete temp" to job store "default"
+[2026-04-09 10:38:41,230]  INFO {base.py:129} Running job "immediately delete temp (trigger: date[2026-04-09 10:38:41 CST], next run at: 2026-04-09 10:38:41 CST)" (scheduled at 2026-04-09 10:38:41.229178+08:00)
+[2026-04-09 10:38:41,230]  INFO {base.py:728} Removed job 996c6d2a24ec436bbac28fcc836a684f
+[2026-04-09 10:38:41,253]  INFO {base.py:156} Job "immediately delete temp (trigger: date[2026-04-09 10:38:41 CST], next run at: 2026-04-09 10:38:41 CST)" executed successfully
+[2026-04-09 10:38:42,731]  INFO {server.py:218} Starting Gevent server on [::]:8083
+[2026-04-09 10:39:58,259]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-09 10:39:58,262]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-09 10:39:58,263]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-09 10:42:42,749]  INFO {web.py:1206} Serving book: 'Bian Yi Yuan Li Ji Shi Jian Jia - Wei Zhi' to admin - ::ffff:172.20.0.1
+[2026-04-09 11:11:57,701]  INFO {ub.py:764} Book 64 archive bit toggled
+[2026-04-09 11:11:59,428]  INFO {ub.py:764} Book 64 archive bit toggled
+[2026-04-09 11:19:12,971]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-09 11:19:13,027]  INFO {__init__.py:184} Starting Calibre Web...
+[2026-04-09 11:19:14,224]  WARN {warnings.py:110} /lsiopy/lib/python3.12/site-packages/flask_limiter/extension.py:324: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2026-04-09 11:19:14,488]  INFO {base.py:214} Scheduler started
+[2026-04-09 11:19:14,490]  INFO {base.py:1090} Added job "delete temp" to job store "default"
+[2026-04-09 11:19:14,491]  INFO {base.py:1090} Added job "end scheduled task" to job store "default"
+[2026-04-09 11:19:14,491]  INFO {base.py:1090} Added job "immediately delete temp" to job store "default"
+[2026-04-09 11:19:14,493]  INFO {base.py:129} Running job "immediately delete temp (trigger: date[2026-04-09 11:19:14 CST], next run at: 2026-04-09 11:19:14 CST)" (scheduled at 2026-04-09 11:19:14.491697+08:00)
+[2026-04-09 11:19:14,493]  INFO {base.py:728} Removed job 1f49b81befd04c8d9a0b91a2705e6072
+[2026-04-09 11:19:14,515]  INFO {base.py:156} Job "immediately delete temp (trigger: date[2026-04-09 11:19:14 CST], next run at: 2026-04-09 11:19:14 CST)" executed successfully
+[2026-04-09 11:19:15,986]  INFO {server.py:218} Starting Gevent server on [::]:8083
+[2026-04-09 11:45:57,098]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-09 11:45:57,110]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-09 11:45:57,112]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-09 12:19:40,150]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-09 12:19:40,155]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-09 12:19:40,156]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-09 12:19:58,036]  INFO {shelf.py:391} Shelf Reading created
+[2026-04-09 12:20:03,973]  INFO {shelf.py:391} Shelf Reading changed
+[2026-04-09 12:20:55,916]  INFO {shelf.py:391} Shelf 自考 changed
+[2026-04-09 12:21:06,192]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-09 12:21:06,196]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-09 12:21:06,198]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-09 12:23:07,969]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-09 12:23:07,972]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-09 12:23:07,973]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-09 12:27:39,790]  INFO {server.py:331} webserver stop (restart=True)
+[2026-04-09 12:27:39,797]  INFO {base.py:245} Scheduler has been shut down
+[2026-04-09 12:27:40,830]  INFO {server.py:313} Performing restart of Calibre-Web
+[2026-04-09 12:27:42,474]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-09 12:27:42,517]  INFO {__init__.py:184} Starting Calibre Web...
+[2026-04-09 12:27:43,378]  WARN {warnings.py:110} /lsiopy/lib/python3.12/site-packages/flask_limiter/extension.py:324: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2026-04-09 12:27:43,651]  INFO {base.py:214} Scheduler started
+[2026-04-09 12:27:43,652]  INFO {base.py:1090} Added job "delete temp" to job store "default"
+[2026-04-09 12:27:43,653]  INFO {base.py:1090} Added job "end scheduled task" to job store "default"
+[2026-04-09 12:27:43,654]  INFO {base.py:1090} Added job "immediately delete temp" to job store "default"
+[2026-04-09 12:27:43,656]  INFO {base.py:129} Running job "immediately delete temp (trigger: date[2026-04-09 12:27:43 CST], next run at: 2026-04-09 12:27:43 CST)" (scheduled at 2026-04-09 12:27:43.654714+08:00)
+[2026-04-09 12:27:43,656]  INFO {base.py:728} Removed job 2157a0af8c12477f9d946845d6da8ae1
+[2026-04-09 12:27:43,677]  INFO {base.py:156} Job "immediately delete temp (trigger: date[2026-04-09 12:27:43 CST], next run at: 2026-04-09 12:27:43 CST)" executed successfully
+[2026-04-09 12:27:45,133]  INFO {server.py:218} Starting Gevent server on [::]:8083
+[2026-04-09 12:29:21,230]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-09 12:29:21,234]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-09 12:29:21,235]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-09 12:31:02,891]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-09 12:31:02,894]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-09 12:31:02,896]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-09 12:33:05,222]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-09 12:33:05,231]  INFO {server.py:331} webserver stop (restart=True)
+[2026-04-09 12:33:05,234]  INFO {base.py:245} Scheduler has been shut down
+[2026-04-09 12:33:06,254]  INFO {server.py:313} Performing restart of Calibre-Web
+[2026-04-09 12:33:07,755]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-09 12:33:07,805]  INFO {__init__.py:184} Starting Calibre Web...
+[2026-04-09 12:33:08,550]  WARN {warnings.py:110} /lsiopy/lib/python3.12/site-packages/flask_limiter/extension.py:324: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2026-04-09 12:33:08,801]  INFO {base.py:214} Scheduler started
+[2026-04-09 12:33:08,802]  INFO {base.py:1090} Added job "delete temp" to job store "default"
+[2026-04-09 12:33:08,803]  INFO {base.py:1090} Added job "end scheduled task" to job store "default"
+[2026-04-09 12:33:08,804]  INFO {base.py:1090} Added job "immediately delete temp" to job store "default"
+[2026-04-09 12:33:08,805]  INFO {base.py:129} Running job "immediately delete temp (trigger: date[2026-04-09 12:33:08 CST], next run at: 2026-04-09 12:33:08 CST)" (scheduled at 2026-04-09 12:33:08.804328+08:00)
+[2026-04-09 12:33:08,805]  INFO {base.py:728} Removed job 56d5ffaef7b14308bdcd5cd0892c2f56
+[2026-04-09 12:33:08,827]  INFO {base.py:156} Job "immediately delete temp (trigger: date[2026-04-09 12:33:08 CST], next run at: 2026-04-09 12:33:08 CST)" executed successfully
+[2026-04-09 12:33:10,253]  INFO {server.py:218} Starting Gevent server on [::]:8083
+[2026-04-09 12:33:13,275]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-09 12:33:13,278]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-09 12:33:13,279]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-09 12:33:41,471]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-09 12:33:41,475]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-09 12:33:41,476]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-09 12:33:59,196]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-09 12:33:59,200]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-09 12:33:59,201]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-09 12:36:28,771]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-09 12:36:28,774]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-09 12:36:28,776]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-09 12:41:25,559]  INFO {shelf.py:513} Not existing book 117 in <Shelf 1:'自考'> deleted
+[2026-04-09 12:41:25,582]  INFO {shelf.py:513} Not existing book 116 in <Shelf 1:'自考'> deleted
+[2026-04-09 12:41:25,603]  INFO {shelf.py:513} Not existing book 115 in <Shelf 1:'自考'> deleted
+[2026-04-09 12:41:58,271] ERROR {helper.py:946} File not found: /nextcloud/data/lidaning/files/ebook/Wei Zhi/Bian Yi Yuan Li Ji Shi Jian Jiao Che (64)/Bian Yi Yuan Li Ji Shi Jian Jia - Wei Zhi.pdf
+[2026-04-09 12:42:00,845]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-09 12:42:00,848]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-09 12:42:00,850]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-09 12:43:15,026]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-09 12:43:15,029]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-09 12:43:15,031]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-09 12:45:26,698]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-09 12:45:46,941]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-09 12:46:19,736]  WARN {admin.py:159} reconnecting to calibre database
+[2026-04-09 12:46:25,835]  INFO {server.py:331} webserver stop (restart=True)
+[2026-04-09 12:46:25,839]  INFO {base.py:245} Scheduler has been shut down
+[2026-04-09 12:46:26,853]  INFO {server.py:313} Performing restart of Calibre-Web
+[2026-04-09 12:46:28,519]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-09 12:46:28,571]  INFO {__init__.py:184} Starting Calibre Web...
+[2026-04-09 12:46:29,321]  WARN {warnings.py:110} /lsiopy/lib/python3.12/site-packages/flask_limiter/extension.py:324: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2026-04-09 12:46:29,578]  INFO {base.py:214} Scheduler started
+[2026-04-09 12:46:29,579]  INFO {base.py:1090} Added job "delete temp" to job store "default"
+[2026-04-09 12:46:29,580]  INFO {base.py:1090} Added job "end scheduled task" to job store "default"
+[2026-04-09 12:46:29,581]  INFO {base.py:1090} Added job "immediately delete temp" to job store "default"
+[2026-04-09 12:46:29,582]  INFO {base.py:129} Running job "immediately delete temp (trigger: date[2026-04-09 12:46:29 CST], next run at: 2026-04-09 12:46:29 CST)" (scheduled at 2026-04-09 12:46:29.581514+08:00)
+[2026-04-09 12:46:29,583]  INFO {base.py:728} Removed job 8c080a5fd71d4fdcaed8cba61179d3d7
+[2026-04-09 12:46:29,602]  INFO {base.py:156} Job "immediately delete temp (trigger: date[2026-04-09 12:46:29 CST], next run at: 2026-04-09 12:46:29 CST)" executed successfully
+[2026-04-09 12:46:31,045]  INFO {server.py:218} Starting Gevent server on [::]:8083
+[2026-04-09 12:47:01,994]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-09 12:47:01,997]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-09 12:47:01,999]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-09 12:48:17,840]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-09 12:48:17,845]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-09 12:48:17,847]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-09 12:50:20,711]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-09 12:50:20,715]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-09 12:50:20,717]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-09 12:50:33,475]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-09 12:50:33,479]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-09 12:50:33,480]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-09 12:50:40,277]  INFO {web.py:1206} Serving book: '13007编译原理-速记宝典 - Unknown' to admin - ::ffff:172.20.0.1
+[2026-04-09 12:51:16,548]  INFO {server.py:331} webserver stop (restart=True)
+[2026-04-09 12:51:16,553]  INFO {base.py:245} Scheduler has been shut down
+[2026-04-09 12:51:17,564]  INFO {server.py:313} Performing restart of Calibre-Web
+[2026-04-09 12:51:18,788]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-09 12:51:18,813]  INFO {__init__.py:184} Starting Calibre Web...
+[2026-04-09 12:51:19,342]  WARN {warnings.py:110} /lsiopy/lib/python3.12/site-packages/flask_limiter/extension.py:324: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2026-04-09 12:51:19,540]  INFO {base.py:214} Scheduler started
+[2026-04-09 12:51:19,542]  INFO {base.py:1090} Added job "delete temp" to job store "default"
+[2026-04-09 12:51:19,543]  INFO {base.py:1090} Added job "end scheduled task" to job store "default"
+[2026-04-09 12:51:19,544]  INFO {base.py:1090} Added job "immediately delete temp" to job store "default"
+[2026-04-09 12:51:19,545]  INFO {base.py:129} Running job "immediately delete temp (trigger: date[2026-04-09 12:51:19 CST], next run at: 2026-04-09 12:51:19 CST)" (scheduled at 2026-04-09 12:51:19.544134+08:00)
+[2026-04-09 12:51:19,545]  INFO {base.py:728} Removed job 26c813340ef2416680713b3f95a1177d
+[2026-04-09 12:51:19,566]  INFO {base.py:156} Job "immediately delete temp (trigger: date[2026-04-09 12:51:19 CST], next run at: 2026-04-09 12:51:19 CST)" executed successfully
+[2026-04-09 12:51:20,783]  INFO {server.py:218} Starting Gevent server on [::]:8083
+[2026-04-09 12:51:20,841]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-09 12:51:20,844]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-09 12:51:20,846]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-09 12:56:18,551]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-09 12:56:18,556]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-09 12:56:18,558]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-09 12:56:23,617]  INFO {web.py:1206} Serving book: '编译原理及实践教程 - 黄贤英' to admin - ::ffff:172.20.0.1
+[2026-04-09 13:32:31,203]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-09 13:32:31,217]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-09 13:32:31,218]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-09 16:24:29,666]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-09 16:24:29,677]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-09 16:24:29,679]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-09 16:29:19,395]  INFO {server.py:331} webserver stop (restart=False)
+[2026-04-09 16:29:19,402]  INFO {base.py:245} Scheduler has been shut down
+[2026-04-09 16:29:20,433]  INFO {server.py:310} Performing shutdown of Calibre-Web
+[2026-04-09 16:29:23,755]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-09 16:29:23,798]  INFO {__init__.py:184} Starting Calibre Web...
+[2026-04-09 16:29:24,666]  WARN {warnings.py:110} /lsiopy/lib/python3.12/site-packages/flask_limiter/extension.py:324: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2026-04-09 16:29:24,942]  INFO {base.py:214} Scheduler started
+[2026-04-09 16:29:24,944]  INFO {base.py:1090} Added job "delete temp" to job store "default"
+[2026-04-09 16:29:24,945]  INFO {base.py:1090} Added job "end scheduled task" to job store "default"
+[2026-04-09 16:29:24,946]  INFO {base.py:1090} Added job "immediately delete temp" to job store "default"
+[2026-04-09 16:29:24,947]  INFO {base.py:129} Running job "immediately delete temp (trigger: date[2026-04-09 16:29:24 CST], next run at: 2026-04-09 16:29:24 CST)" (scheduled at 2026-04-09 16:29:24.945761+08:00)
+[2026-04-09 16:29:24,947]  INFO {base.py:728} Removed job 303235b63f174481869f3cf219634566
+[2026-04-09 16:29:24,971]  INFO {base.py:156} Job "immediately delete temp (trigger: date[2026-04-09 16:29:24 CST], next run at: 2026-04-09 16:29:24 CST)" executed successfully
+[2026-04-09 16:29:26,454]  INFO {server.py:218} Starting Gevent server on [::]:8083
+[2026-04-09 16:29:58,275]  INFO {web.py:1206} Serving book: '编译原理及实践教程 - 黄贤英' to admin - ::ffff:172.20.0.1
+[2026-04-09 16:32:08,578]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-09 16:32:08,582]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-09 16:32:08,583]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-09 16:32:13,368]  INFO {shelf.py:513} Not existing book 64 in <Shelf 1:'自考'> deleted
+[2026-04-09 16:32:21,451]  INFO {web.py:1206} Serving book: 'Bian Yi Yuan Li Ji Shi Jian Jia - Wei Zhi - Unknown' to admin - ::ffff:172.20.0.1
+[2026-04-09 19:25:08,947]  INFO {server.py:331} webserver stop (restart=False)
+[2026-04-09 19:25:08,990]  INFO {base.py:245} Scheduler has been shut down
+[2026-04-09 19:25:09,023]  INFO {server.py:310} Performing shutdown of Calibre-Web
+[2026-04-09 19:29:03,499]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-09 19:29:03,550]  INFO {__init__.py:184} Starting Calibre Web...
+[2026-04-09 19:29:04,428]  WARN {warnings.py:110} /lsiopy/lib/python3.12/site-packages/flask_limiter/extension.py:324: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2026-04-09 19:29:04,692]  INFO {base.py:214} Scheduler started
+[2026-04-09 19:29:04,694]  INFO {base.py:1090} Added job "delete temp" to job store "default"
+[2026-04-09 19:29:04,695]  INFO {base.py:1090} Added job "end scheduled task" to job store "default"
+[2026-04-09 19:29:04,696]  INFO {base.py:1090} Added job "immediately delete temp" to job store "default"
+[2026-04-09 19:29:04,698]  INFO {base.py:129} Running job "immediately delete temp (trigger: date[2026-04-09 19:29:04 CST], next run at: 2026-04-09 19:29:04 CST)" (scheduled at 2026-04-09 19:29:04.696588+08:00)
+[2026-04-09 19:29:04,698]  INFO {base.py:728} Removed job 246319dcb03a4dfe94e9c4cd05695044
+[2026-04-09 19:29:04,718]  INFO {base.py:156} Job "immediately delete temp (trigger: date[2026-04-09 19:29:04 CST], next run at: 2026-04-09 19:29:04 CST)" executed successfully
+[2026-04-09 19:29:06,174]  INFO {server.py:218} Starting Gevent server on [::]:8083
+[2026-04-09 19:29:20,328]  INFO {web.py:1206} Serving book: 'Bian Yi Yuan Li Ji Shi Jian Jia - Wei Zhi - Unknown' to admin - ::ffff:172.20.0.1
+[2026-04-09 23:34:43,815]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-09 23:34:43,893]  INFO {__init__.py:184} Starting Calibre Web...
+[2026-04-09 23:34:45,625]  WARN {warnings.py:110} /lsiopy/lib/python3.12/site-packages/flask_limiter/extension.py:324: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2026-04-09 23:34:46,003]  INFO {base.py:214} Scheduler started
+[2026-04-09 23:34:46,005]  INFO {base.py:1090} Added job "delete temp" to job store "default"
+[2026-04-09 23:34:46,006]  INFO {base.py:1090} Added job "end scheduled task" to job store "default"
+[2026-04-09 23:34:46,008]  INFO {base.py:1090} Added job "immediately delete temp" to job store "default"
+[2026-04-09 23:34:46,010]  INFO {base.py:129} Running job "immediately delete temp (trigger: date[2026-04-09 23:34:46 CST], next run at: 2026-04-09 23:34:46 CST)" (scheduled at 2026-04-09 23:34:46.008097+08:00)
+[2026-04-09 23:34:46,010]  INFO {base.py:728} Removed job d659852ac2184966a4b23df91f45482c
+[2026-04-09 23:34:46,039]  INFO {base.py:156} Job "immediately delete temp (trigger: date[2026-04-09 23:34:46 CST], next run at: 2026-04-09 23:34:46 CST)" executed successfully
+[2026-04-09 23:34:48,123]  INFO {server.py:218} Starting Gevent server on [::]:8083
+[2026-04-10 01:07:57,021]  INFO {server.py:331} webserver stop (restart=False)
+[2026-04-10 01:07:57,194]  INFO {base.py:245} Scheduler has been shut down
+[2026-04-10 01:07:57,296]  INFO {server.py:310} Performing shutdown of Calibre-Web
+[2026-04-10 09:48:58,969]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-10 09:48:59,031]  INFO {__init__.py:184} Starting Calibre Web...
+[2026-04-10 09:49:00,350]  WARN {warnings.py:110} /lsiopy/lib/python3.12/site-packages/flask_limiter/extension.py:324: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2026-04-10 09:49:00,648]  INFO {base.py:214} Scheduler started
+[2026-04-10 09:49:00,650]  INFO {base.py:1090} Added job "delete temp" to job store "default"
+[2026-04-10 09:49:00,651]  INFO {base.py:1090} Added job "end scheduled task" to job store "default"
+[2026-04-10 09:49:00,652]  INFO {base.py:1090} Added job "immediately delete temp" to job store "default"
+[2026-04-10 09:49:00,653]  INFO {base.py:129} Running job "immediately delete temp (trigger: date[2026-04-10 09:49:00 CST], next run at: 2026-04-10 09:49:00 CST)" (scheduled at 2026-04-10 09:49:00.651836+08:00)
+[2026-04-10 09:49:00,653]  INFO {base.py:728} Removed job c059bdc3ce9b4afdb80e00fd08b136bb
+[2026-04-10 09:49:00,676]  INFO {base.py:156} Job "immediately delete temp (trigger: date[2026-04-10 09:49:00 CST], next run at: 2026-04-10 09:49:00 CST)" executed successfully
+[2026-04-10 09:49:02,332]  INFO {server.py:218} Starting Gevent server on [::]:8083
+[2026-04-10 09:49:42,280]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-10 09:49:42,282]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-10 09:49:42,284]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-10 10:14:20,985]  INFO {web.py:1206} Serving book: 'Li San Shu Xue  (Xin Yun Wei ) - Wei Zhi' to admin - ::ffff:172.20.0.1
+[2026-04-10 19:59:06,412]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-10 19:59:06,420]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-10 19:59:06,422]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-10 19:59:25,154]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-10 19:59:25,157]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-10 19:59:25,158]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-10 19:59:40,313]  INFO {web.py:1206} Serving book: 'Li San Shu Xue  (Xin Yun Wei ) - Wei Zhi' to admin - ::ffff:172.20.0.1
+[2026-04-10 20:56:29,164]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-10 20:56:29,169]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-10 20:56:29,170]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-10 21:02:12,985]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-10 21:02:12,988]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-10 21:02:12,990]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-10 21:03:06,555]  INFO {shelf.py:391} Shelf Maths created
+[2026-04-10 21:03:38,722]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-10 21:03:38,725]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-10 21:03:38,726]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-10 21:09:32,898]  INFO {web.py:1206} Serving book: '[(Kao Qian 60Fen -Zhu Guan Ti D - admin' to admin - ::ffff:172.20.0.1
+[2026-04-10 21:11:46,753]  INFO {helper.py:550} Moving title: /nextcloud/data/lidaning/files/ebook/黄贤英/编译原理及实践教程 - Wei Zhi (118) into existing: /nextcloud/data/lidaning/files/ebook/黄贤英/编译原理及实践教程 (118)
+[2026-04-11 07:22:49,023]  WARN {db.py:929} Author 'Alberto Paro' of book 70 not found in author list, skipping in sort order
+[2026-04-11 07:22:49,032]  WARN {db.py:929} Author 'Jon Erickson' of book 63 not found in author list, skipping in sort order
+[2026-04-11 07:22:49,034]  WARN {db.py:929} Author 'Sebastian Raschka' of book 61 not found in author list, skipping in sort order
+[2026-04-11 11:01:57,232]  WARN {base.py:126} Run time of job "delete temp (trigger: cron[hour='4'], next run at: 2026-04-12 04:00:00 CST)" was missed by 7:01:57.231254
+[2026-04-11 11:01:57,237]  WARN {base.py:126} Run time of job "end scheduled task (trigger: cron[hour='4', minute='10'], next run at: 2026-04-12 04:10:00 CST)" was missed by 6:51:57.237269
+[2026-04-11 20:48:04,383]  INFO {web.py:1206} Serving book: '13007编译原理-速记宝典 - Unknown' to admin - ::ffff:172.20.0.1
+[2026-04-11 20:52:26,195]  INFO {web.py:1206} Serving book: '13007编译原理 电子教辅 - Unknown' to admin - ::ffff:172.20.0.1
+[2026-04-11 20:54:39,300]  INFO {web.py:1206} Serving book: '13007编译原理-精讲 - Unknown' to admin - ::ffff:172.20.0.1
+[2026-04-12 18:01:35,356]  WARN {base.py:126} Run time of job "delete temp (trigger: cron[hour='4'], next run at: 2026-04-13 04:00:00 CST)" was missed by 14:01:35.333247
+[2026-04-12 18:01:35,421]  WARN {base.py:126} Run time of job "end scheduled task (trigger: cron[hour='4', minute='10'], next run at: 2026-04-13 04:10:00 CST)" was missed by 13:51:35.417630
+[2026-04-13 23:30:35,373]  INFO {server.py:331} webserver stop (restart=False)
+[2026-04-13 23:30:35,622]  INFO {base.py:245} Scheduler has been shut down
+[2026-04-13 23:30:35,801]  INFO {server.py:310} Performing shutdown of Calibre-Web
+[2026-04-15 09:40:10,920]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-15 09:40:11,001]  INFO {__init__.py:184} Starting Calibre Web...
+[2026-04-15 09:40:12,642]  WARN {warnings.py:110} /lsiopy/lib/python3.12/site-packages/flask_limiter/extension.py:324: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2026-04-15 09:40:13,025]  INFO {base.py:214} Scheduler started
+[2026-04-15 09:40:13,027]  INFO {base.py:1090} Added job "delete temp" to job store "default"
+[2026-04-15 09:40:13,029]  INFO {base.py:1090} Added job "end scheduled task" to job store "default"
+[2026-04-15 09:40:13,031]  INFO {base.py:1090} Added job "immediately delete temp" to job store "default"
+[2026-04-15 09:40:13,033]  INFO {base.py:129} Running job "immediately delete temp (trigger: date[2026-04-15 09:40:13 CST], next run at: 2026-04-15 09:40:13 CST)" (scheduled at 2026-04-15 09:40:13.030988+08:00)
+[2026-04-15 09:40:13,033]  INFO {base.py:728} Removed job f221cd1e008e4c25a6306beffbdea18c
+[2026-04-15 09:40:13,060]  INFO {base.py:156} Job "immediately delete temp (trigger: date[2026-04-15 09:40:13 CST], next run at: 2026-04-15 09:40:13 CST)" executed successfully
+[2026-04-15 09:40:15,160]  INFO {server.py:218} Starting Gevent server on [::]:8083
+[2026-04-16 10:34:18,696]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-16 10:34:18,879]  INFO {__init__.py:184} Starting Calibre Web...
+[2026-04-16 10:34:21,462]  WARN {warnings.py:110} /lsiopy/lib/python3.12/site-packages/flask_limiter/extension.py:324: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2026-04-16 10:34:21,972]  INFO {base.py:214} Scheduler started
+[2026-04-16 10:34:21,974]  INFO {base.py:1090} Added job "delete temp" to job store "default"
+[2026-04-16 10:34:21,975]  INFO {base.py:1090} Added job "end scheduled task" to job store "default"
+[2026-04-16 10:34:21,977]  INFO {base.py:1090} Added job "immediately delete temp" to job store "default"
+[2026-04-16 10:34:21,979]  INFO {base.py:129} Running job "immediately delete temp (trigger: date[2026-04-16 10:34:21 CST], next run at: 2026-04-16 10:34:21 CST)" (scheduled at 2026-04-16 10:34:21.977096+08:00)
+[2026-04-16 10:34:21,979]  INFO {base.py:728} Removed job 11a19b8e5b81444fb68df6a7a5f08a50
+[2026-04-16 10:34:22,006]  INFO {base.py:156} Job "immediately delete temp (trigger: date[2026-04-16 10:34:21 CST], next run at: 2026-04-16 10:34:21 CST)" executed successfully
+[2026-04-16 10:34:23,946]  INFO {server.py:218} Starting Gevent server on [::]:8083
+[2026-04-17 19:09:05,000]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-17 19:09:05,056]  INFO {__init__.py:184} Starting Calibre Web...
+[2026-04-17 19:09:06,262]  WARN {warnings.py:110} /lsiopy/lib/python3.12/site-packages/flask_limiter/extension.py:324: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2026-04-17 19:09:06,536]  INFO {base.py:214} Scheduler started
+[2026-04-17 19:09:06,537]  INFO {base.py:1090} Added job "delete temp" to job store "default"
+[2026-04-17 19:09:06,538]  INFO {base.py:1090} Added job "end scheduled task" to job store "default"
+[2026-04-17 19:09:06,539]  INFO {base.py:1090} Added job "immediately delete temp" to job store "default"
+[2026-04-17 19:09:06,541]  INFO {base.py:129} Running job "immediately delete temp (trigger: date[2026-04-17 19:09:06 CST], next run at: 2026-04-17 19:09:06 CST)" (scheduled at 2026-04-17 19:09:06.539480+08:00)
+[2026-04-17 19:09:06,541]  INFO {base.py:728} Removed job 95c4d8bd6b6e49c0ae6b3d84301bfae6
+[2026-04-17 19:09:06,562]  INFO {base.py:156} Job "immediately delete temp (trigger: date[2026-04-17 19:09:06 CST], next run at: 2026-04-17 19:09:06 CST)" executed successfully
+[2026-04-17 19:09:08,057]  INFO {server.py:218} Starting Gevent server on [::]:8083
+[2026-04-18 19:19:13,550]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-18 19:19:13,635]  INFO {__init__.py:184} Starting Calibre Web...
+[2026-04-18 19:19:14,932]  WARN {warnings.py:110} /lsiopy/lib/python3.12/site-packages/flask_limiter/extension.py:324: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2026-04-18 19:19:15,206]  INFO {base.py:214} Scheduler started
+[2026-04-18 19:19:15,208]  INFO {base.py:1090} Added job "delete temp" to job store "default"
+[2026-04-18 19:19:15,209]  INFO {base.py:1090} Added job "end scheduled task" to job store "default"
+[2026-04-18 19:19:15,209]  INFO {base.py:1090} Added job "immediately delete temp" to job store "default"
+[2026-04-18 19:19:15,211]  INFO {base.py:129} Running job "immediately delete temp (trigger: date[2026-04-18 19:19:15 CST], next run at: 2026-04-18 19:19:15 CST)" (scheduled at 2026-04-18 19:19:15.209754+08:00)
+[2026-04-18 19:19:15,211]  INFO {base.py:728} Removed job e462dbc8d53c460a8b1d8436f09013d9
+[2026-04-18 19:19:15,231]  INFO {base.py:156} Job "immediately delete temp (trigger: date[2026-04-18 19:19:15 CST], next run at: 2026-04-18 19:19:15 CST)" executed successfully
+[2026-04-18 19:19:16,965]  INFO {server.py:218} Starting Gevent server on [::]:8083
+[2026-04-20 13:58:57,785]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-20 13:58:57,844]  INFO {__init__.py:184} Starting Calibre Web...
+[2026-04-20 13:58:59,090]  WARN {warnings.py:110} /lsiopy/lib/python3.12/site-packages/flask_limiter/extension.py:324: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2026-04-20 13:58:59,380]  INFO {base.py:214} Scheduler started
+[2026-04-20 13:58:59,382]  INFO {base.py:1090} Added job "delete temp" to job store "default"
+[2026-04-20 13:58:59,383]  INFO {base.py:1090} Added job "end scheduled task" to job store "default"
+[2026-04-20 13:58:59,384]  INFO {base.py:1090} Added job "immediately delete temp" to job store "default"
+[2026-04-20 13:58:59,386]  INFO {base.py:129} Running job "immediately delete temp (trigger: date[2026-04-20 13:58:59 CST], next run at: 2026-04-20 13:58:59 CST)" (scheduled at 2026-04-20 13:58:59.384397+08:00)
+[2026-04-20 13:58:59,386]  INFO {base.py:728} Removed job d94ac9443c30427881ffa57f6caba494
+[2026-04-20 13:58:59,409]  INFO {base.py:156} Job "immediately delete temp (trigger: date[2026-04-20 13:58:59 CST], next run at: 2026-04-20 13:58:59 CST)" executed successfully
+[2026-04-20 13:59:01,098]  INFO {server.py:218} Starting Gevent server on [::]:8083
+[2026-04-21 15:33:34,775]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-21 15:33:34,833]  INFO {__init__.py:184} Starting Calibre Web...
+[2026-04-21 15:33:36,458]  WARN {warnings.py:110} /lsiopy/lib/python3.12/site-packages/flask_limiter/extension.py:324: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2026-04-21 15:33:36,744]  INFO {base.py:214} Scheduler started
+[2026-04-21 15:33:36,746]  INFO {base.py:1090} Added job "delete temp" to job store "default"
+[2026-04-21 15:33:36,747]  INFO {base.py:1090} Added job "end scheduled task" to job store "default"
+[2026-04-21 15:33:36,749]  INFO {base.py:1090} Added job "immediately delete temp" to job store "default"
+[2026-04-21 15:33:36,750]  INFO {base.py:129} Running job "immediately delete temp (trigger: date[2026-04-21 15:33:36 CST], next run at: 2026-04-21 15:33:36 CST)" (scheduled at 2026-04-21 15:33:36.748701+08:00)
+[2026-04-21 15:33:36,750]  INFO {base.py:728} Removed job 3aa1ec17dd6d470b821f030770824ff6
+[2026-04-21 15:33:36,772]  INFO {base.py:156} Job "immediately delete temp (trigger: date[2026-04-21 15:33:36 CST], next run at: 2026-04-21 15:33:36 CST)" executed successfully
+[2026-04-21 15:33:38,352]  INFO {server.py:218} Starting Gevent server on [::]:8083
+[2026-04-22 15:30:31,886]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-22 15:30:31,947]  INFO {__init__.py:184} Starting Calibre Web...
+[2026-04-22 15:30:33,170]  WARN {warnings.py:110} /lsiopy/lib/python3.12/site-packages/flask_limiter/extension.py:324: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2026-04-22 15:30:33,465]  INFO {base.py:214} Scheduler started
+[2026-04-22 15:30:33,467]  INFO {base.py:1090} Added job "delete temp" to job store "default"
+[2026-04-22 15:30:33,468]  INFO {base.py:1090} Added job "end scheduled task" to job store "default"
+[2026-04-22 15:30:33,469]  INFO {base.py:1090} Added job "immediately delete temp" to job store "default"
+[2026-04-22 15:30:33,470]  INFO {base.py:129} Running job "immediately delete temp (trigger: date[2026-04-22 15:30:33 CST], next run at: 2026-04-22 15:30:33 CST)" (scheduled at 2026-04-22 15:30:33.469278+08:00)
+[2026-04-22 15:30:33,471]  INFO {base.py:728} Removed job 19dad100abf64b538e10ac4b3c2d8bfa
+[2026-04-22 15:30:33,495]  INFO {base.py:156} Job "immediately delete temp (trigger: date[2026-04-22 15:30:33 CST], next run at: 2026-04-22 15:30:33 CST)" executed successfully
+[2026-04-22 15:30:35,177]  INFO {server.py:218} Starting Gevent server on [::]:8083
+[2026-04-22 23:23:59,669]  INFO {server.py:331} webserver stop (restart=False)
+[2026-04-22 23:23:59,803]  INFO {base.py:245} Scheduler has been shut down
+[2026-04-22 23:23:59,887]  INFO {server.py:310} Performing shutdown of Calibre-Web
+[2026-04-23 12:44:24,155]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-23 12:44:24,216]  INFO {__init__.py:184} Starting Calibre Web...
+[2026-04-23 12:44:25,602]  WARN {warnings.py:110} /lsiopy/lib/python3.12/site-packages/flask_limiter/extension.py:324: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2026-04-23 12:44:25,900]  INFO {base.py:214} Scheduler started
+[2026-04-23 12:44:25,902]  INFO {base.py:1090} Added job "delete temp" to job store "default"
+[2026-04-23 12:44:25,903]  INFO {base.py:1090} Added job "end scheduled task" to job store "default"
+[2026-04-23 12:44:25,904]  INFO {base.py:1090} Added job "immediately delete temp" to job store "default"
+[2026-04-23 12:44:25,906]  INFO {base.py:129} Running job "immediately delete temp (trigger: date[2026-04-23 12:44:25 CST], next run at: 2026-04-23 12:44:25 CST)" (scheduled at 2026-04-23 12:44:25.904616+08:00)
+[2026-04-23 12:44:25,906]  INFO {base.py:728} Removed job 227b3c1976e14507bf0b6bd90d898104
+[2026-04-23 12:44:25,930]  INFO {base.py:156} Job "immediately delete temp (trigger: date[2026-04-23 12:44:25 CST], next run at: 2026-04-23 12:44:25 CST)" executed successfully
+[2026-04-23 12:44:27,554]  INFO {server.py:218} Starting Gevent server on [::]:8083
+[2026-04-23 13:21:49,683]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-23 13:21:49,737]  INFO {__init__.py:184} Starting Calibre Web...
+[2026-04-23 13:21:50,928]  WARN {warnings.py:110} /lsiopy/lib/python3.12/site-packages/flask_limiter/extension.py:324: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2026-04-23 13:21:51,196]  INFO {base.py:214} Scheduler started
+[2026-04-23 13:21:51,197]  INFO {base.py:1090} Added job "delete temp" to job store "default"
+[2026-04-23 13:21:51,198]  INFO {base.py:1090} Added job "end scheduled task" to job store "default"
+[2026-04-23 13:21:51,199]  INFO {base.py:1090} Added job "immediately delete temp" to job store "default"
+[2026-04-23 13:21:51,200]  INFO {base.py:129} Running job "immediately delete temp (trigger: date[2026-04-23 13:21:51 CST], next run at: 2026-04-23 13:21:51 CST)" (scheduled at 2026-04-23 13:21:51.199061+08:00)
+[2026-04-23 13:21:51,200]  INFO {base.py:728} Removed job d3d1889956f2407d8faaca23842e135d
+[2026-04-23 13:21:51,222]  INFO {base.py:156} Job "immediately delete temp (trigger: date[2026-04-23 13:21:51 CST], next run at: 2026-04-23 13:21:51 CST)" executed successfully
+[2026-04-23 13:21:52,719]  INFO {server.py:218} Starting Gevent server on [::]:8083
+[2026-04-23 14:06:25,851]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-23 14:06:25,909]  INFO {__init__.py:184} Starting Calibre Web...
+[2026-04-23 14:06:27,430]  WARN {warnings.py:110} /lsiopy/lib/python3.12/site-packages/flask_limiter/extension.py:324: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2026-04-23 14:06:27,764]  INFO {base.py:214} Scheduler started
+[2026-04-23 14:06:27,765]  INFO {base.py:1090} Added job "delete temp" to job store "default"
+[2026-04-23 14:06:27,766]  INFO {base.py:1090} Added job "end scheduled task" to job store "default"
+[2026-04-23 14:06:27,768]  INFO {base.py:1090} Added job "immediately delete temp" to job store "default"
+[2026-04-23 14:06:27,769]  INFO {base.py:129} Running job "immediately delete temp (trigger: date[2026-04-23 14:06:27 CST], next run at: 2026-04-23 14:06:27 CST)" (scheduled at 2026-04-23 14:06:27.767761+08:00)
+[2026-04-23 14:06:27,769]  INFO {base.py:728} Removed job f86c5544c53e41adaeb0d123b40aace1
+[2026-04-23 14:06:27,797]  INFO {base.py:156} Job "immediately delete temp (trigger: date[2026-04-23 14:06:27 CST], next run at: 2026-04-23 14:06:27 CST)" executed successfully
+[2026-04-23 14:06:29,564]  INFO {server.py:218} Starting Gevent server on [::]:8083
+[2026-04-23 14:16:00,361]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-23 14:16:00,416]  INFO {__init__.py:184} Starting Calibre Web...
+[2026-04-23 14:16:01,641]  WARN {warnings.py:110} /lsiopy/lib/python3.12/site-packages/flask_limiter/extension.py:324: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2026-04-23 14:16:01,920]  INFO {base.py:214} Scheduler started
+[2026-04-23 14:16:01,922]  INFO {base.py:1090} Added job "delete temp" to job store "default"
+[2026-04-23 14:16:01,923]  INFO {base.py:1090} Added job "end scheduled task" to job store "default"
+[2026-04-23 14:16:01,923]  INFO {base.py:1090} Added job "immediately delete temp" to job store "default"
+[2026-04-23 14:16:01,925]  INFO {base.py:129} Running job "immediately delete temp (trigger: date[2026-04-23 14:16:01 CST], next run at: 2026-04-23 14:16:01 CST)" (scheduled at 2026-04-23 14:16:01.923781+08:00)
+[2026-04-23 14:16:01,925]  INFO {base.py:728} Removed job 833242bce1f34e2fa69a136f2eeaa666
+[2026-04-23 14:16:01,948]  INFO {base.py:156} Job "immediately delete temp (trigger: date[2026-04-23 14:16:01 CST], next run at: 2026-04-23 14:16:01 CST)" executed successfully
+[2026-04-23 14:16:03,557]  INFO {server.py:218} Starting Gevent server on [::]:8083
+[2026-04-23 14:50:14,440]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-23 14:50:14,498]  INFO {__init__.py:184} Starting Calibre Web...
+[2026-04-23 14:50:15,790]  WARN {warnings.py:110} /lsiopy/lib/python3.12/site-packages/flask_limiter/extension.py:324: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2026-04-23 14:50:16,110]  INFO {base.py:214} Scheduler started
+[2026-04-23 14:50:16,112]  INFO {base.py:1090} Added job "delete temp" to job store "default"
+[2026-04-23 14:50:16,113]  INFO {base.py:1090} Added job "end scheduled task" to job store "default"
+[2026-04-23 14:50:16,114]  INFO {base.py:1090} Added job "immediately delete temp" to job store "default"
+[2026-04-23 14:50:16,115]  INFO {base.py:129} Running job "immediately delete temp (trigger: date[2026-04-23 14:50:16 CST], next run at: 2026-04-23 14:50:16 CST)" (scheduled at 2026-04-23 14:50:16.113915+08:00)
+[2026-04-23 14:50:16,115]  INFO {base.py:728} Removed job 470d1b49fed74186b5a758e9c42f6a76
+[2026-04-23 14:50:16,156]  INFO {base.py:156} Job "immediately delete temp (trigger: date[2026-04-23 14:50:16 CST], next run at: 2026-04-23 14:50:16 CST)" executed successfully
+[2026-04-23 14:50:18,275]  INFO {server.py:218} Starting Gevent server on [::]:8083
+[2026-04-23 15:49:42,267]  WARN {config_sql.py:365} Log path  not valid, falling back to default
+[2026-04-23 15:49:42,333]  INFO {__init__.py:184} Starting Calibre Web...
+[2026-04-23 15:49:43,515]  WARN {warnings.py:110} /lsiopy/lib/python3.12/site-packages/flask_limiter/extension.py:324: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2026-04-23 15:49:43,801]  INFO {base.py:214} Scheduler started
+[2026-04-23 15:49:43,802]  INFO {base.py:1090} Added job "delete temp" to job store "default"
+[2026-04-23 15:49:43,804]  INFO {base.py:1090} Added job "end scheduled task" to job store "default"
+[2026-04-23 15:49:43,805]  INFO {base.py:1090} Added job "immediately delete temp" to job store "default"
+[2026-04-23 15:49:43,806]  INFO {base.py:129} Running job "immediately delete temp (trigger: date[2026-04-23 15:49:43 CST], next run at: 2026-04-23 15:49:43 CST)" (scheduled at 2026-04-23 15:49:43.804851+08:00)
+[2026-04-23 15:49:43,806]  INFO {base.py:728} Removed job 7401b6839aff4807af1aedb3cb529889
+[2026-04-23 15:49:43,836]  INFO {base.py:156} Job "immediately delete temp (trigger: date[2026-04-23 15:49:43 CST], next run at: 2026-04-23 15:49:43 CST)" executed successfully
+[2026-04-23 15:49:45,387]  INFO {server.py:218} Starting Gevent server on [::]:8083
