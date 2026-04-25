@@ -1,9 +1,14 @@
 services:
   nextcloud:
-    image: nextcloud
+    image: nextcloud:latest
     ports:
       - 0.0.0.0:8080:80
     restart: unless-stopped
+    volumes:
+      - /data/nextcloud/data:/var/www/html/data
+      - /data/nextcloud/config:/var/www/html/config
+    environment:
+    - TZ=Asia/Shanghai
 
   jellyfin:
     image: jellyfin/jellyfin:latest
@@ -16,32 +21,29 @@ services:
     - PUID=1000
     - PGID=1000
     volumes:
-    - ./jellyfin_config:/config
-    - ./jellyfin_cache:/cache
-
-    - bd030fb5679919783a8d22cdebbbb4a16782a766d89dd9a0e79be0e4079b1dfb:/media
-    - d:\rargb:/local_media
+    - /data/jellyfin/config:/config
+    - /data/nextcloud/data:/nextcloud
+    - /data/rargb:/rargb
 
   calibre-web:
     image: lscr.io/linuxserver/calibre-web:latest
     environment:
-      - PUID=33
-      - PGID=33
       - TZ=Asia/Shanghai
       - Docker_MODS=linuxserver/mods:universal-calibre
     ports:
       - "8083:8083"
     volumes:
-      - ./calibre-conf:/config
-      - bd030fb5679919783a8d22cdebbbb4a16782a766d89dd9a0e79be0e4079b1dfb:/nextcloud
+      - /data/calibre/conf:/config
+      - /data/nextcloud/data/lidaning/ebook:/ebook
     restart: unless-stopped
 
-
-
-
-volumes:
-  bd030fb5679919783a8d22cdebbbb4a16782a766d89dd9a0e79be0e4079b1dfb:
-    external: true
-  host_volume:
-    external: true
-
+  obsidian:
+    image: lscr.io/linuxserver/obsidian:latest
+    enviroment:
+      - TZ=Asia/Shanghai
+    ports:
+      - "3000:3000"
+      - "3001:3001"
+    volumes:
+      - /data/obsidian/config:/config
+    restart: unless-stopped
