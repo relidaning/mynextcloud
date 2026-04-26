@@ -38,12 +38,12 @@ services:
       - /data/nextcloud/data/lidaning/files:/nextcloud
     restart: unless-stopped
 
-  obsidian:
-    image: lscr.io/linuxserver/obsidian:latest
-    ports:
-      - "3000:3000"
-      - "3001:3001"
-    volumes:
-      - /data/obsidian/config:/config
-      - /data/obsidian/data:/data
-    restart: unless-stopped
+  # obsidian:
+  #   image: lscr.io/linuxserver/obsidian:latest
+  #   ports:
+  #     - "3000:3000"
+  #     - "3001:3001"
+  #   volumes:
+  #     - /data/obsidian/config:/config
+  #     - /data/obsidian/data:/data
+  #   restart: unless-stopped
