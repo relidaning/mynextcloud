@@ -1,6 +1,6 @@
 services:
   nextcloud:
-    image: nextcloud:latest
+    image: nextcloud@sha256:6e1029b6a988ff0ea45bc573c15889fa339047f72eae8ca4f7135e962b1a7c0b
     ports:
       - 0.0.0.0:8080:80
     restart: unless-stopped
@@ -12,7 +12,7 @@ services:
       - TZ=Asia/Shanghai
 
   jellyfin:
-    image: jellyfin/jellyfin:latest
+    image: jellyfin/jellyfin@sha256:1694ff069f0c9dafb283c36765175606866769f5d72f2ed56b6a0f1be922fc37
     container_name: jellyfin
     restart: unless-stopped
     ports:
@@ -27,7 +27,7 @@ services:
       - /data/rargb:/rargb
 
   calibre-web:
-    image: lscr.io/linuxserver/calibre-web:latest
+    image: lscr.io/linuxserver/calibre-web@sha256:561456bd634893293f7038cf24e1297d7fad0c7268682fa36036f400d8ff3760
     environment:
       - TZ=Asia/Shanghai
       - Docker_MODS=linuxserver/mods:universal-calibre
@@ -47,3 +47,4 @@ services:
   #     - /data/obsidian/config:/config
   #     - /data/obsidian/data:/data
   #   restart: unless-stopped
+
