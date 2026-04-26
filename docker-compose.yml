@@ -7,8 +7,9 @@ services:
     volumes:
       - /data/nextcloud/data:/var/www/html/data
       - /data/nextcloud/config:/var/www/html/config
+      - /data/nextcloud:/var/www/html
     environment:
-    - TZ=Asia/Shanghai
+      - TZ=Asia/Shanghai
 
   jellyfin:
     image: jellyfin/jellyfin:latest
@@ -17,13 +18,13 @@ services:
     ports:
       - "8096:8096"
     environment:
-    - TZ=Asia/Shanghai
-    - PUID=1000
-    - PGID=1000
+      - TZ=Asia/Shanghai
+      - PUID=1000
+      - PGID=1000
     volumes:
-    - /data/jellyfin/config:/config
-    - /data/nextcloud/data:/nextcloud
-    - /data/rargb:/rargb
+      - /data/jellyfin/config:/config
+      - /data/nextcloud/data:/nextcloud
+      - /data/rargb:/rargb
 
   calibre-web:
     image: lscr.io/linuxserver/calibre-web:latest
@@ -34,16 +35,15 @@ services:
       - "8083:8083"
     volumes:
       - /data/calibre/conf:/config
-      - /data/nextcloud/data/lidaning/ebook:/ebook
+      - /data/nextcloud/data/lidaning/files:/nextcloud
     restart: unless-stopped
 
   obsidian:
     image: lscr.io/linuxserver/obsidian:latest
-    enviroment:
-      - TZ=Asia/Shanghai
     ports:
       - "3000:3000"
       - "3001:3001"
     volumes:
       - /data/obsidian/config:/config
+      - /data/obsidian/data:/data
     restart: unless-stopped
